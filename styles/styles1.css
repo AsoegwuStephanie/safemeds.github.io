@@ -1,0 +1,132 @@
+/* General page styles */
+body {
+    font-family: 'Istok Web', sans-serif;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    margin: 0;
+}
+
+.background-image{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: auto;
+    height: 500px;
+}
+
+/* h2 {
+    color: #333;
+    text-align: center;
+} */
+.title {
+    position: absolute;
+    left: 700px;
+    top: 90px;
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+/* Form styling */
+/* form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+input[type=text]{
+    width: 500px;
+    height: 56px;
+    padding: 10px;
+    position: absolute;
+    /* letter-spacing: 0.1cm; */
+   margin-left: 700px;
+   margin-top: -320px;
+    display: inline-block;
+    background: #F2F2F2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 500px;
+    height: 56px;
+    padding: 10px;
+    position: absolute;
+   margin-left: 700px;
+   margin-top: -260px;
+    display: inline-block;
+    background: #F2F2F2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 500px;
+    height: 56px;
+    background: #71D7CB;
+    color: white;
+    font-size: 16px;
+    padding: 14px 20px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -190px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: #409f94;
+}
+.email-label{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 175px;
+    /* color: rgba(63.75, 63.75, 63.75, 0.50); */
+    color: #1E1E1E;
+    font-size: 18px;
+   
+    font-weight: 400;
+    /* word-wrap: break-word; */
+}
+.password-label {
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 700px;
+    /* color: rgba(63.75, 63.75, 63.75, 0.50); */
+    color: #1E1E1E;
+    font-size: 18px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* label {
+    color: #666;
+} */
+.terms-text {
+    position: absolute;
+    left: 695px;
+    top: 500px;
+    color: #1E1E1E;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.signup-text {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -110px;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.login-link {
+    color: #71D7CB;
+  text-decoration: none;
+}

@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .author-date .author, .author-date .date {
+    display: block;
+    color: #555;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  article {
+    flex: 3;
+    margin-right: 20px;
+  }
+  
+  aside {
+    flex: 1;
+    /* Add styles for the sidebar */
+  }
+  
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .related-articles h4 {
+    color: #DA1884;
+   
+  }
+  
+  /* Add further styles for layout, fonts, colors, etc. */
+  /* Add responsive design with media queries */
+  

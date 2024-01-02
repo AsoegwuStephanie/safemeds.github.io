@@ -1,0 +1,194 @@
+.highlight h1 {
+    color: black;
+    display: inline-block;
+    width: fit-content;
+    margin: 0;
+    margin-right: 1rem;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+#home-about {
+    width: 40%;
+}
+
+#article-text {
+    margin-bottom: 4rem;
+}
+
+#home-about span {
+    display: block;
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+article div div {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+#stats {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+#stats div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#stats h1 {
+    display: block;
+    padding: 1.5rem 0;
+    border-bottom: 4px solid var(--primary);
+    width: fit-content;
+}
+
+#services {
+    margin: 4rem;
+}
+
+#services h1 {
+    margin: 0;
+    margin: 2rem 0;
+}
+
+#service-grid {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 2rem 4.1%;
+    text-align: center;
+}
+
+.service img {
+    margin: 1rem;
+}
+
+.service strong {
+    margin: 1rem;
+}
+
+#fact {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+#fact div {
+    width: 50%;
+    margin-right: 1rem;
+}
+
+#blog-highlights {
+    margin: 3rem 0;
+}
+
+#blog-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 4rem 0;
+}
+
+#blog-top h1 {
+    margin: 0;
+}
+
+#blogs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog {
+    width: 47%;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog h3 {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.blog h3 img {
+    width: initial;
+}
+
+#expert-div {
+    margin: 2rem 0;
+}
+
+#expert-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.expert {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 30%;
+    padding: 1rem;
+}
+
+#reviews {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+#user-reviews {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-review {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid var(--primary);
+}
+
+.user-review img {
+    width: 4rem;
+    align-self: center;
+}
+
+.user-review .quote {
+    width: 3rem;
+    align-self: flex-start;
+}
+
+#reviews span {
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,0 +1,89 @@
+.hero {
+    width: 100%;
+    /* background-image: url("../assets/hero-bg.png"); */
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+    margin-bottom: 4rem;
+    
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 2rem;
+}
+a{
+    cursor: pointer;
+}
+.logo {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 0.5rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+
+nav a {
+    margin-right: 2rem;
+    color: white;
+}
+
+nav a:hover {
+    color: var(--primary);
+    
+}
+
+nav div {
+    margin: 0 1.5rem;
+    text-decoration: none;
+}
+
+nav div img {
+    padding: 0 0.5rem;
+}
+
+.intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    padding-bottom: 6rem;
+}
+
+.intro h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    width: 70%;
+    text-align: center;
+}
+
+.intro div {
+    width: 60%;
+    text-align: center;
+}
+
+#verify {
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    border: none;
+    box-shadow: none;
+    padding: 1rem 4rem;
+    color: white;
+    background-color: var(--primary);
+}

@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Istok Web', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #00cccc; /* Aqua color */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar .user-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .user-info .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar .user-info {
+    color: #fff;
+    font-size: 1.2em;
+}
+.username {
+    color: #fff;
+    font-size: 1.2em;
+    width: 150px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.main-content h1 {
+    color: #007777; /* Darker shade of aqua */
+}
+
+.dashboard-overview {
+    background-color: #eef3f7;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+    }
+    .sidebar .user-info .avatar {
+        display: none;
+    }
+}

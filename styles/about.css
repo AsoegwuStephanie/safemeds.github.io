@@ -1,0 +1,14 @@
+.service-block {
+    display: flex;
+    width: 95%;
+    margin: 3rem;
+}
+
+.service-block.rev {
+    flex-direction: row-reverse;
+}
+
+.service-block img {
+    width: 40%;
+    margin: 2rem;
+}

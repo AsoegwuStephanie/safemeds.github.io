@@ -1,0 +1,44 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    width: 95%;
+    height: 600px;
+  }
+  /* .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  } */
+  .container{
+    margin: auto;
+    width: 40%;
+  }
+  .checkmark {
+    color:green;
+    font-size: 10em;
+    text-align: center;
+  }
+  .warning{
+    color: red;
+    font-size: 10em;
+    text-align: center;
+  }
+  .verification {
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: bold ;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .tip {
+    
+    font-size: 0.8em;
+    background-color: #eef;
+    padding: 10px;
+    border-left: 5px solid #00b;
+  }

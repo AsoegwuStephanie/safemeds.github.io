@@ -1,0 +1,54 @@
+@import url("../Istok_Web/IstokWeb-Bold.ttf");
+@import url("../Istok_Web/IstokWeb-BoldItalic.ttf");
+@import url("../Istok_Web/IstokWeb-Italic.ttf");
+@import url("../Istok_Web/IstokWeb-Regular.ttf");
+
+:root {
+    --primary : #71D7CB;
+    --dark-primary : #096A5F;
+    --light-primary : rgb(214, 251, 247);
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    position: relative;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+main {
+    width: 100%;
+    padding: 0 10%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+a:hover {
+    text-decoration: underline 1px;
+}
+
+.highlight {
+    color: var(--primary);
+}
+
+h1 {
+    font-size: 3rem;
+}

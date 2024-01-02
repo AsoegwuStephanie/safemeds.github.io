@@ -1,0 +1,112 @@
+.foot {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+footer {
+    width: 100%;
+    padding: 3rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-primary);
+    color: white;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#footer-layout {
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem;
+}
+
+#footer-layout div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 25%;
+}
+
+#footer-layout div strong {
+    margin: 0.2rem;
+}
+#footer-layout div span {
+    margin: 0.2rem;
+}
+#footer-layout div a {
+    margin: 0.2rem;
+    color: white;
+}
+
+#copyright {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.sub {
+    background-color: #8fe5dbbd;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 3rem 17.5%;
+    text-align: center;
+}
+
+.sub form {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.sub form input{
+    margin: 0;
+    padding: 1rem;
+    border: none;
+    width: 80%;
+    font-size: 1rem;
+}
+
+.sub form button{
+    margin: 0;
+    border: none;
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: var(--primary);
+    font-size: 1rem;
+    width: 20%;
+}
+
+#footer-layout #socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    width: 50%;
+}
+
+#socials a {
+    width: 25%;
+}
+
+#socials img {
+    width: 100%;
+}
